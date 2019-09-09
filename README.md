@@ -12,7 +12,7 @@ If you are installing from source, run as root `make install-ec2` to install on
 EC2 or `make install-azure` to install on Azure. Then reload the udev rules by
 running `udevadm control -R`. Afterwards add **cloud-netconfig** to the
 variable **NETCONFIG__MODULES__ORDER** in `/etc/sysconfig/network/config` and
-restart networking (`systemctl restart wicked.serice` on SLE 12 or recent
+restart networking (`systemctl restart wicked.service` on SLE 12 or recent
 openSUSE distributions).
 
 ### Mode of Operation
